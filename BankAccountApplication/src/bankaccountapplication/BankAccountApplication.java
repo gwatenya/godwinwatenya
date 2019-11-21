@@ -473,7 +473,7 @@ public class BankAccountApplication extends Application {
                 Label lblsilverfee = new Label(" $20.00");
                 Label lblgold = new Label(" Gold\n $10,000 <= Balance < $20,000");
                 Label lblgoldfee = new Label(" $10.00");
-                Label lblplat = new Label(" Platinum\n Balance > $20,000");
+                Label lblplat = new Label(" Platinum\n Balance >= $20,000");
                 Label lblplatfee = new Label(" $0.00");
                 Label lblPrice = new Label("Price(>=$50): $");
                 TextField priceTxtFld = new TextField();
